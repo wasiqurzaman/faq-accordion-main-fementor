@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "WorkSans";
+  src: url("./assets/fonts/WorkSans-VariableFont_wght.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Light-pink: hsl(275, 100%, 97%);
+  --Grayish-purple: hsl(292, 16%, 49%);
+  --Dark-purple: hsl(292, 42%, 14%);
+}
+
+body {
+  font-family: "WorkSans", "sans-serif";
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--Light-pink);
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+picture {
+  position: fixed;
+  top: 0;
+}
+
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  background-color: var(--White);
+  padding: 1rem;
+  z-index: 10;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+h2 {
+  font-size: 36px;
+  margin-left: 1rem;
+}
+
+div.question {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  margin: 1rem 0;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+p {
+  padding: 0.5rem;
+  /* display: none; */
+}
