@@ -21,10 +21,9 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   background-color: var(--Light-pink);
-  justify-content: flex-start;
 }
 
 .container {
@@ -79,6 +78,7 @@ div.question > h3:hover {
 
 h3 {
   font-size: 1rem;
+  color: var(--Dark-purple);
 }
 
 p {
@@ -89,7 +89,9 @@ p {
 }
 
 hr {
-  border-top: 0.5px solid var(--Light-pink);
+  height: 1px;
+  color: var(--Light-pink);
+  border-top: 1px solid var(--Light-pink);
 }
 
 .btn-open {
