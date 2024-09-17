@@ -33,7 +33,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 12rem;
-  margin-bottom: 3rem;
+  margin-bottom: 6rem;
 }
 
 picture {
@@ -50,7 +50,7 @@ picture img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 32rem;
+  max-width: 36rem;
   background-color: var(--White);
   padding: 1rem;
   z-index: 10;
@@ -72,7 +72,7 @@ div.question {
   display: flex;
   justify-content: space-between;
   padding: 0.5rem;
-  margin: 0.5rem 0;
+  margin: 1rem 0;
   cursor: pointer;
 }
 
@@ -96,6 +96,7 @@ hr {
   height: 1px;
   color: var(--Light-pink);
   border-top: 1px solid var(--Light-pink);
+  opacity: 0.5;
 }
 
 .btn-open {
