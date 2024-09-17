@@ -92,6 +92,10 @@ p {
   margin-bottom: 1rem;
 }
 
+p.active {
+  display: block;
+}
+
 hr {
   height: 1px;
   color: var(--Light-pink);
