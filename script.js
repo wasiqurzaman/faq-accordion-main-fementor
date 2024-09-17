@@ -2,6 +2,8 @@ const faqDivs = document.querySelectorAll(".faq");
 const openBtns = document.querySelectorAll(".btn-open");
 const answers = document.querySelectorAll("p");
 
+answers[0].style.display = "block";
+
 faqDivs.forEach((faq, i) => {
   faq.addEventListener("click", function (e) {
     if (faq.dataset.active === "false") {
